@@ -1,0 +1,19 @@
+{
+  "name": "dreamscape-stories-frontend",
+  "version": "1.0.0",
+  "description": "dreamboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethel-school-of-technology/dreamscape-stories-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bethel-school-of-technology/dreamscape-stories-frontend/issues"
+  },
+  "homepage": "https://github.com/bethel-school-of-technology/dreamscape-stories-frontend#readme"
+}
