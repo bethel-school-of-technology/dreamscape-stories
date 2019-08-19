@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class AddPostComponent implements OnInit {
 
   constructor() { }
-  posts = []
+  posts = [];
   ngOnInit() {
   }
-  
+
   addPost(content) {
     let post = { "content": content.value };
     if (localStorage.getItem("posts")){
