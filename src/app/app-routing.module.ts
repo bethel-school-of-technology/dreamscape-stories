@@ -5,6 +5,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ForumComponent } from './forum/forum.component';
+import { AddPostComponent } from './add-post/add-post.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: "forum",
     component: ForumComponent
+  },
+  { 
+    path: "add-post",
+    component: AddPostComponent
   }
 ];
 
