@@ -6,6 +6,7 @@ import { BlogComponent } from './blog/blog.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ForumComponent } from './forum/forum.component';
 import { AddPostComponent } from './add-post/add-post.component';
+import { SubscriberFormComponent } from './subscriber-form/subscriber-form.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   { 
     path: "add-post",
     component: AddPostComponent
+  },
+  { 
+    path: "subscriber-form",
+    component: SubscriberFormComponent
   }
 ];
 

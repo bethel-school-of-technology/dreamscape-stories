@@ -9,6 +9,7 @@ import { AddPostComponent } from './add-post/add-post.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ForumComponent } from './forum/forum.component';
+import { SubscriberFormComponent } from './subscriber-form/subscriber-form.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ForumComponent } from './forum/forum.component';
     BlogComponent,
     AboutUsComponent,
     ForumComponent,
+    SubscriberFormComponent,
   ],
   imports: [
     BrowserModule,
