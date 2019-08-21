@@ -19,7 +19,7 @@ const routes: Routes = [
     component: AboutUsComponent
   },
   {
-    path: "login/sign-up", 
+    path: "sign-up", 
     component: SignUpComponent
   },
   {
@@ -31,11 +31,11 @@ const routes: Routes = [
     component: ForumComponent
   },
   { 
-    path: "blog/add-post",
+    path: "add-post",
     component: AddPostComponent
   },
   { 
-    path: "home/subscriber-form",
+    path: "subscriber-form",
     component: SubscriberFormComponent
   },
   {
