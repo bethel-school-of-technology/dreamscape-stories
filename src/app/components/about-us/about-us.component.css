@@ -5,8 +5,11 @@
     border: 2px solid rgba(9, 62, 235, 0.350);
     padding: 20px;
 }
+.container {
+    align-content: center;
+}
 .row {
-    margin: 40px;
+    margin: auto;
 }
 #profilepic2 {
     height: auto;
@@ -24,6 +27,7 @@
 h1 {
     text-align: center;
     color: white;
+    margin: 20px;
 }
 h3 {
     text-align: center;
