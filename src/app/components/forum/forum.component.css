@@ -1,3 +1,26 @@
+.post{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.075); 
+    border-radius: 25px;
+    border: 2px solid rgba(9, 62, 235, 0.350); 
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color:  rgba(0, 0, 0, 0.85);
+    color: white;
+    border: 2px solid rgba(9, 62, 235, 0.350);
+}
+.form-control {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
 .site-footer {
     position: auto;
     left: 0;
