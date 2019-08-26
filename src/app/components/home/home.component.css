@@ -2,7 +2,7 @@ header {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    margin: 40px;
 }
 .col-6  {
     color: white;
@@ -10,6 +10,7 @@ header {
     background-color:rgba(0, 0, 0, 0.342);
     border: 2px solid rgba(9, 62, 235, 0.350);
     padding: 20px;
+    margin-bottom: 20px;
 }
 .col-12 {
     color: white;
@@ -17,6 +18,7 @@ header {
     background-color:rgba(0, 0, 0, 0.342);
     border: 2px solid rgba(9, 62, 235, 0.350);
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .visiondescription {
@@ -30,9 +32,11 @@ header {
     border-radius: 25px;
     border: 2px solid rgba(9, 62, 235, 0.350);
     padding: 20px; 
+    margin-bottom: 20px;
 }
 
 .site-footer {
+    border-top :2px solid rgba(9, 62, 235, 0.350);
     margin-top: 20px;
     position: auto;
     left: 0;

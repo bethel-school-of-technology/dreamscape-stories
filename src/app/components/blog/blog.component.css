@@ -10,6 +10,7 @@
 h1 {
     text-align: center;
     color: white;
+    margin: 20px;
 }
 .post {
     padding: 20px;
@@ -24,6 +25,7 @@ h1 {
     color: white;
 }
 .site-footer {
+    border-top :2px solid rgba(9, 62, 235, 0.350);
     margin-top: 20px;
     position: auto;
     left: 0;

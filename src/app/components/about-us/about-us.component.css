@@ -4,6 +4,7 @@
     background-color:rgba(0, 0, 0, 0.342);
     border: 2px solid rgba(9, 62, 235, 0.350);
     padding: 20px;
+    margin-bottom: 20px;
 }
 .container {
     align-content: center;
@@ -27,12 +28,13 @@
 h1 {
     text-align: center;
     color: white;
-    margin: 20px;
+    margin: 40px;
 }
 h3 {
     text-align: center;
 }
 .site-footer {
+    border-top :2px solid rgba(9, 62, 235, 0.350);
     margin-top: 20px;
     position: auto;
     left: 0;
