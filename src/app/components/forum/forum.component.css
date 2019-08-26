@@ -42,8 +42,8 @@ h5 {
     color: white;
 }
 .site-footer {
+    margin-top: 20px;
     position: auto;
-    margin-bottom: auto;
     left: 0;
     bottom: 0;
     width: 100%;
