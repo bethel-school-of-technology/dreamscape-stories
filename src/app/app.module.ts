@@ -11,6 +11,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ForumComponent } from './components/forum/forum.component';
 import { SubscriberFormComponent } from './components/home/subscriber-form/subscriber-form.component';
 import { LoginComponent } from './components/login/login.component';
+import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { LoginComponent } from './components/login/login.component';
     ForumComponent,
     SubscriberFormComponent,
     LoginComponent,
+    ForgotPasswordComponent,
   ],
   imports: [
     BrowserModule,

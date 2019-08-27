@@ -8,6 +8,7 @@ import { ForumComponent } from './components/forum/forum.component';
 import { AddPostComponent } from './components/blog/add-post/add-post.component';
 import { SubscriberFormComponent } from './components/home/subscriber-form/subscriber-form.component';
 import { LoginComponent } from './components/login/login.component';
+import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent
+  },
+  {
+    path: "forgot-password",
+    component: ForgotPasswordComponent
   }
 ];
 
