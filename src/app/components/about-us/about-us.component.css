@@ -34,27 +34,32 @@ h3 {
     text-align: center;
 }
 body, input, textarea {
-	font-family: Open Sans, Helvetica, sans-serif;
+    font-family: Open Sans, Helvetica, sans-serif;
+    border-radius: 25px;
 	font-size: 16px;
 }
 body {
-	background: #ddd;
+    background: #ddd;
+    border-radius: 25px;
 	color: #333;
 }
 label {
-	display: block;
+    display: block;
+    border-radius: 25px;
 	font-weight: 700;
 	margin: 0 0 8px 0;
 	min-width: 50px;
 }
 input, textarea {
-	border: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 25px;
 	padding: 4px 0;
 	width: 100%;
 	-webkit-appearance: none;
 }
 input[type=submit] {
-	background: #4a4;
+    background: rgb(9, 62, 235, 0.350);
+    border-radius: 25px;
 	border: 0;
 	color: #fff;
 	padding: 8px 16px;
@@ -70,13 +75,15 @@ input[disabled] {
 	opacity: 0.5;
 }
 .contact-us {
-	background-color: (0, 0, 0, 0.342);
-	
+    background-color: (0, 0, 0, 0.342);
+    border: 2px solid rgba(9, 62, 235, 0.350);
+    border-radius: 25px;
 	margin: auto;
 	padding: 16px;
 	max-width: 600px;
 }
 .form-group {
+    color: white;
 	margin-bottom: 16px;
 }
 input.ng-invalid.ng-dirty,
