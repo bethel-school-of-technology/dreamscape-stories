@@ -11,3 +11,10 @@
 .dropdown-item {
     color:rgba(9, 62, 235, 0.664);
 }
+
+.login {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 25px;
+    border: 2px solid rgba(9, 62, 235, 0.350);  
+}
