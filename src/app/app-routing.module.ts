@@ -5,7 +5,7 @@ import { SignUpComponent } from './components/login/sign-up/sign-up.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ForumComponent } from './components/forum/forum.component';
-import { AddPostComponent } from './components/blog/add-post/add-post.component';
+import { postsComponent } from './components/blog/posts/posts.component';
 import { SubscriberFormComponent } from './components/home/subscriber-form/subscriber-form.component';
 import { LoginComponent } from './components/login/login.component';
 import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
@@ -32,8 +32,8 @@ const routes: Routes = [
     component: ForumComponent
   },
   { 
-    path: "add-post",
-    component: AddPostComponent
+    path: "posts",
+    component: postsComponent
   },
   { 
     path: "subscriber-form",

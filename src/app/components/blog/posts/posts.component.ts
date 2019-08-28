@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
-import { post } from '../../model/post';
-import { postsService } from '../../services/posts.service';
+import { post } from '../../../model/post';
+import { postsService } from '../../../services/posts.service';
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css']
+  selector: 'app-posts',
+  templateUrl: './posts.component.html',
+  providers: [postsService],
+  styleUrls: ['./posts.component.css']
 })
-export class BlogComponent implements OnInit {
+export class postsComponent implements OnInit {
   posts: post[];
   editPost: post; // the post currently being edited
 
