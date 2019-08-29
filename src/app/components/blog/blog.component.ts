@@ -6,6 +6,7 @@ import { postsService } from '../../services/posts.service';
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
+  providers: [postsService],
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
