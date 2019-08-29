@@ -1,3 +1,11 @@
+
+.login {
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
 .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.85);
     color: white;
@@ -12,10 +20,3 @@
     color:rgba(9, 62, 235, 0.664);
 }
 
-.login {
-    margin: 15px;
-    padding: 15px;
-    color: white;
-    border-radius: 25px;
-   
-}
