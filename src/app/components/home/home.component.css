@@ -1,83 +1,86 @@
 header {
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 40px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
 }
-.col-6  {
-    color: white;
-    border-radius: 25px;
-    background-color:rgba(0, 0, 0, 0.45);
-    border: 2px solid rgba(9, 62, 235, 0.350);
-    padding: 20px;
-    margin-bottom: 20px;
+
+.col-6 {
+  color: white;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 2px solid rgba(9, 62, 235, 0.350);
+  padding: 20px;
+  margin-bottom: 20px;
 }
+
 .col-12 {
-    color: white;
-    border-radius: 25px;
-    background-color:rgba(0, 0, 0, 0.45);
-    border: 2px solid rgba(9, 62, 235, 0.350);
-    padding: 20px;
-    margin-bottom: 20px;
+  color: white;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 2px solid rgba(9, 62, 235, 0.350);
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .visiondescription {
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif; 
-    width: 79%;
-    height: auto;
-    margin: 0 auto;
-    background-color:rgba(0, 0, 0, 0.45); 
-    border-radius: 25px;
-    border: 2px solid rgba(9, 62, 235, 0.350);
-    padding: 20px; 
-    margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 79%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  border: 2px solid rgba(9, 62, 235, 0.350);
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .site-footer {
-    border-top :2px solid rgba(9, 62, 235, 0.350);
-    margin-top: 20px;
-    position: auto;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.45);
-    color: blue;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  border-top: 2px solid rgba(9, 62, 235, 0.350);
+  margin-top: 20px;
+  position: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .fa {
-    padding: 30px;
-    font-size: 28px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
+  padding: 30px;
+  font-size: 28px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
 }
 
+
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* Facebook */
 .fa-facebook {
-    background: rgba(9, 62, 235, 0);
-    color: white;
+  background: rgb(9, 62, 235, 0);
+  color: rgb(74, 74, 158);
 }
 
 /* Twitter */
 .fa-twitter {
-    background: rgba(9, 62, 235, 0);
-    color: white;
+  background: rgba(9, 62, 235, 0);
+  color: rgb(0, 174, 255);
 }
 
 /* Instagram */
 .fa-instagram {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 35px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
 }
