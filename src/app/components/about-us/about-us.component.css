@@ -85,14 +85,17 @@ input[type=submit] {
 input[type=submit]:not(:disabled):hover {
   background: white;
   color: black;
+  border-radius: 25px;
 }
 
 input[type=submit]:not(:disabled):active {
   background: #383;
+  border-radius: 25px;
 }
 
 input[disabled] {
   opacity: 0.5;
+  border-radius: 25px;
 }
 
 .contact-us {
@@ -107,6 +110,7 @@ input[disabled] {
 .form-group {
   color: white;
   margin-bottom: 16px;
+  border-radius: 25px;
 }
 
 input.ng-invalid.ng-dirty,
