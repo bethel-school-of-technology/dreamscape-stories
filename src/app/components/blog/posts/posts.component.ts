@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { post } from '../../../model/post';
 import { postsService } from '../../../services/posts.service';
-import { ApiService } from '../../../services/api.service';
 
 @Component({
   selector: 'app-posts',
@@ -63,7 +62,7 @@ export class postsComponent implements OnInit {
     }
   }
 
-  update() {
+  update(Post: post) {
     if (this.editPost) {
       this.postsService
         .updatePost(this.editPost)
@@ -74,7 +73,7 @@ export class postsComponent implements OnInit {
           this.posts[ix] = Post;
         }
       });
-      this.editPost = undefined;
+      this.editPost = Post;
     }
   }
 }

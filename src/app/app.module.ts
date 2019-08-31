@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule }      from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientXsrfModule } from '@angular/common/http';
+import axios from 'axios'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,7 +17,6 @@ import { ForumComponent } from './components/forum/forum.component';
 import { SubscriberFormComponent } from './components/home/subscriber-form/subscriber-form.component';
 import { LoginComponent } from './components/login/login.component';
 import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
-import { ApiService } from './services/api.service';
 
 import { HttpErrorHandler }     from './services/http-error-handler.service';
 import { MessageService }       from './services/message.service';
@@ -47,7 +47,6 @@ import { MessageService }       from './services/message.service';
   providers: [
     HttpErrorHandler,
     MessageService,
-    ApiService,
   ],
   bootstrap: [AppComponent]
 })
