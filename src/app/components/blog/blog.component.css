@@ -1,7 +1,7 @@
 #container {
   width: 90%;
   height: auto;
-  margin: 0 auto;
+  margin: auto;
   color: white;
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 25px;
@@ -18,8 +18,13 @@ h1 {
   margin: 20px;
 }
 
+h5 {
+  margin-bottom: 20px;
+}
+
 .post {
   padding: 20px;
+  margin-bottom: -20px;
 }
 
 .dropdown-menu {

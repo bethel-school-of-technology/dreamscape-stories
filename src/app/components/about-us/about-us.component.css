@@ -1,12 +1,14 @@
-.col-6 {
+.col {
   color: white;
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.45);
   border: 2px solid rgba(9, 62, 235, 0.350);
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 10px;
 }
-
+#profile {
+  margin-bottom: 10px;
+}
 .container {
   align-content: center;
 }
