@@ -1,22 +1,29 @@
 #container {
-  width: 50%;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
-  text-align: center;
+  margin: auto;
   color: white;
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 25px;
   border: 2px solid rgba(9, 62, 235, 0.350);
 }
-
+#delete {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgba(0, 0, 0, 0);
+}
 .post {
-  width: 70%;
+  padding: 20px;
+  margin-bottom: -20px;
+}
+#dreamContainer {
+  width: 90%;
   height: auto;
   margin: 0 auto;
   color: white;
-  background-color: rgba(0, 0, 0, 0.45);
-  border-radius: 25px;
-  border: 2px solid rgba(9, 62, 235, 0.350);
+}
+#dreaminput {
+  background-color:rgba(0, 0, 0, 0.45); 
+  color: white;
 }
 
 #random {
@@ -29,9 +36,12 @@ h1 {
   text-align: center;
   color: white;
 }
+h4 {
+  color: white;
+  text-align: center;
+}
 
 h5 {
-  text-align: center;
   color: white;
 }
 
