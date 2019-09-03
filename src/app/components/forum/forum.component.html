@@ -61,33 +61,22 @@
             <textarea class="form-control transparent-input" #dreamContent id="dreaminput" rows="3"></textarea>
         </div>
         <button type="submit" (click)="add(dreamContent.value); dreamContent.value=''"
-            class="btn btn-outline-light my-2 my-sm-0">Submit</button>
+            class="btn btn-outline-light my-2 my-sm-0">+ Dream</button>
     </form>
     <div class="post" *ngFor="let dream of dreams">
         <div id="container">
             <div class="card-body">
-                <div>
+                <div class="btn-toolbar justify-content-between">
+                    <h5 class="card-user">{{dream.user}}</h5>
+                    <a href="" >edit dream</a>
                     <button id='delete' class="delete" title="delete dream" (click)="delete(dream)"
                         style="float: right; color: red">X</button>
-                    <h5 class="card-user">{{dream.user}}</h5>
                 </div>
                 <div>
                     <p class="card-text">{{dream.content}}</p>
                 </div>
-                <div class="dropdown">
-                    <button class="btn dropdown-toggle" style="color: white" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Add Comment
-                    </button>
-                    <div class="dropdown-menu">
-                        <div>
-                            <textarea id="comment" class="form-control"></textarea>
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <div>
-                            <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-sm">Comment</button>
-                        </div>
-                    </div>
+                <div>
+                    <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-sm">+ Interpretation</button>
                 </div>
             </div>
         </div>
