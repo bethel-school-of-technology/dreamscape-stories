@@ -1,0 +1,7 @@
+<form id="container">
+    <div class="form-group">
+        <label for="dreaminput">Dream input space...</label>
+        <textarea class="form-control transparent-input" #postContent id="dreaminput" rows="3"></textarea>
+    </div>
+    <button type="submit" (click)="add(postContent.value); postContent.value=''" class="btn btn-outline-light my-2 my-sm-0">Submit</button>
+</form>

@@ -1,0 +1,109 @@
+<h1> Forum</h1>
+
+<div>
+    <h4>Post your dreams... Find an interpretation...</h4>
+</div>
+<!-- <div class="dream">
+    <div class="forum-container">
+        <div class="row">
+            <div class="col-sm">
+                <button class="btn dropdown-toggle" style="color: white" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    My dream
+                </button>
+                <div class="dropdown-menu">
+                    <div>
+                        <textarea id="comment" class="form-control"></textarea>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div>
+                        <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-sm">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <button class="btn dropdown-toggle" style="color: white" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Interpretation
+                </button>
+                <div class="dropdown-menu">
+                    <div>
+                        <textarea id="comment" class="form-control"></textarea>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div>
+                        <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-sm">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <button class="btn dropdown-toggle" style="color: white" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Comments
+                </button>
+                <div class="dropdown-menu">
+                    <div>
+                        <textarea id="comment" class="form-control"></textarea>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div>
+                        <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-sm">Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class='container'>
+    <form id="dreamContainer">
+        <div class="form-group">
+            <label for="dreaminput">Dream input space...</label>
+            <textarea class="form-control transparent-input" #dreamContent id="dreaminput" rows="3"></textarea>
+        </div>
+        <button type="submit" (click)="add(dreamContent.value); dreamContent.value=''"
+            class="btn btn-outline-light my-2 my-sm-0">+ Dream</button>
+    </form>
+    <div class="post" *ngFor="let dream of dreams">
+        <div id="container">
+            <div class="card-body">
+                <div class="btn-toolbar justify-content-between">
+                    <h5 class="card-user">{{dream.user}}</h5>
+                    <a href="" >edit dream</a>
+                    <button id='delete' class="delete" title="delete dream" (click)="delete(dream)"
+                        style="float: right; color: red">X</button>
+                </div>
+                <div>
+                    <p class="card-text">{{dream.content}}</p>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-sm">+ Interpretation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="site-footer" role="contentinfo">
+    <div class="container">
+        <div class="footernav">
+            <h3 class="mb-4">Navigation</h3>
+            <ul class="list-unstyled footer-link">
+                <li><a href="">Home</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="about-us">About Us</a></li>
+                <li><a href="forum">Forum</a></li>
+                <li><a href="login">Login</a></li>
+            </ul>
+        </div>
+        <div class="socialmedia">
+            <ul class="list-unstyled footer-link d-flex footer-social">
+                <li><a href="https://www.facebook.com/bethelschooloftechnology" class="p-2"><span
+                            class="fa fa-facebook fa-lg"></span></a></li>
+                <li><a href="https://twitter.com/bethelredding" class="p-2"><span
+                            class="fa fa-twitter fa-lg"></span></a></li>
+                <li><a href="https://www.instagram.com/betheltech/" class="p-2"><span
+                            class="fa fa-instagram fa-lg"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
